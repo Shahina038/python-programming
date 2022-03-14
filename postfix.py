@@ -21,4 +21,4 @@ def post_eval(str):
             stack.append(int(dig1)* int(dig2))
         else:
             return "Invalid"    
-    return stack.pop()
+    return stack
